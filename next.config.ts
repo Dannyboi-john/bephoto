@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  basePath: "/bephoto",
+  assetPrefix: "/bephoto/",
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
   reactCompiler: true,
 };
 
