@@ -335,7 +335,7 @@ export default function App() {
             photography
           </p>
           <a href="mailto:bandephotography6@gmail.com" className="button button--light">
-            brandon_keough96@hotmail.com
+            bandephotography6@gmail.com
           </a>
 
           <div>

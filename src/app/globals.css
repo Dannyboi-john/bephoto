@@ -54,3 +54,11 @@ a {
 button {
   font-family: inherit;
 }
+
+.fb-icon-svg {
+  fill: #9ca3af;
+  transition: fill 0.2s ease;
+}
+.fb-icon-link:hover .fb-icon-svg {
+  fill: #ffffff;
+}
