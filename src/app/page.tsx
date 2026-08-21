@@ -28,19 +28,6 @@ interface Frame {
   imageName: StaticImageData;
 }
 
-function PhotoManager() {
-  const [photos, setPhotos] = useState([
-    { id: 1, url: bridge, assignedNumber: 1},
-    { id: 2, url: colorfulHut, assignedNumber: 2},
-    { id: 3, url: dandelions, assignedNumber: 3},
-    { id: 4, url: lupins, assignedNumber: 4},
-    { id: 5, url: oldBuildings, assignedNumber: 5},
-    { id: 6, url: puffin, assignedNumber: 6},
-    { id: 7, url: saltbox, assignedNumber: 7},
-    { id: 8, url: stage, assignedNumber: 8},
-  ])
-}
-
 const FRAMES: Frame[] = [
   {
     id: 1,
@@ -225,7 +212,7 @@ export default function App() {
 
         <div className="hero__content">
           <p className="eyebrow eyebrow--light">
-            Bonavista Bay, Newfoundland - EST. 2023
+            Bonavista Bay, Newfoundland
           </p>
           <h1 className="hero__headline">
             Light, fog,
@@ -261,7 +248,7 @@ export default function App() {
         <Reveal className="about__text">
           <p className="eyebrow">About</p>
           <h2 className="about__heading">
-            Five years capturing Newfoundland's many beautiful moments.
+            Five years of capturing Newfoundland's many beautiful moments.
           </h2>
           <p className="about__body">
             Born, raised, and currently based out of Bonavista Bay, Newfoundland.
