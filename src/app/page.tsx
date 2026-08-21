@@ -334,7 +334,7 @@ export default function App() {
             Your special occasion deserves a special touch - professional, high-quality
             photography
           </p>
-          <a href="mailto:brandon_keough96@hotmail.com" className="button button--light">
+          <a href="mailto:bandephotography6@gmail.com" className="button button--light">
             brandon_keough96@hotmail.com
           </a>
 
