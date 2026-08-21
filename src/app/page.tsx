@@ -15,6 +15,8 @@ import stage from './assets/stage.jpg';
 import windowPic from './assets/window.jpg';
 import { StaticImageData } from "next/image";
 
+import FacebookIconLink from "./assets/components/FacebookLink";
+
 /* ------------------------------------------------------------------ */
 /*  Data                                                               */
 /* ------------------------------------------------------------------ */
@@ -168,6 +170,11 @@ function Sprockets({ count = 24 }: { count?: number }) {
 function frameNumber(n: number): string {
   return n.toString().padStart(2, "0");
 }
+
+/* ------------------------------------------------------------------ */
+/*  Facebook link logic                                               */
+/* ------------------------------------------------------------------ */
+
 
 /* ------------------------------------------------------------------ */
 /*  App                                                                 */
@@ -330,6 +337,10 @@ export default function App() {
           <a href="mailto:brandon_keough96@hotmail.com" className="button button--light">
             brandon_keough96@hotmail.com
           </a>
+
+          <div>
+            <FacebookIconLink href="https://www.facebook.com/bandephotography6" />
+          </div>
         </Reveal>
       </section>
 
